@@ -3,8 +3,8 @@
 
 #BGN FUNCTION
 gControl <- function(
-	root.folder= "/Volumes/kbeer/BaligaLab/GrowthCurves/Database", # USER: Location of the Database folder. UPDATE this!
-	export.folder = "/Volumes/kbeer/BaligaLab/GrowthCurves/Export", # Location for default exporting of gAnalysis
+	root.folder = "/Volumes/~kbeer/BaligaLab/GrowthCurves/Database", # USER: Location of the Database folder. UPDATE this!
+	export.folder = "/Volumes/~kbeer/BaligaLab/GrowthCurves/Export", # Location for default exporting of gAnalysis
 	spar = .7,  # spar parameter for smooth.spline in gSplineFit
 	cv.spline = TRUE,  # Cross-validation technique for smooth.spline when not for bootstrapping
 	num.bs.samp =0,  # Number bootstrap samples
